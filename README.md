@@ -15,7 +15,7 @@ $ make build
 
 # Użycie
 
-- Przygotuj plik `JSON` na podstawie wzoru `indata.json'.
+- Przygotuj plik `JSON` na podstawie wzoru `indata.json`.
 - Uruchom:
 
 ```bash
