@@ -131,7 +131,7 @@ func preparePages(pdf *gofpdf.Fpdf, data InJson) {
     cell(pdf, L1, 66.0, W1, H, data.Page3.ImieRodzica)
     printArray(pdf, data.Page3.PeselRodzica, 43.90)
     printArray(pdf, data.Page3.PeselMalzonka, 169.50)
-    putX(pdf, L2, 122.0, 111.3, data.Page3.RodzicOtrzymalZasilek)
+    putX(pdf, 122.1, 141.1, 111.3, data.Page3.RodzicOtrzymalZasilek)
     putX(pdf, 122.1, 140.8, 237.0, data.Page3.MalzonekOtrzymalZasilek)
     putX(pdf, 153.7, 172.5, 210.6, data.Page3.MalzonekPracujeNaZmiany)
     putX(pdf, 160.0, 178.6, 84.8, data.Page3.RodzicPracujeNaZmiany)
